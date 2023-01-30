@@ -1,0 +1,78 @@
+/* タブレット向けスタイル 766px以下の時に使用するCSSを記載 */
+@media screen and (max-width: 767px) {
+    boby {
+        width: 300px;
+        height: 450px;
+    }
+    .header {
+        width: 300px;
+    }
+    .contents {
+        width: 300px;
+    }
+    .side {
+        width: 100px;
+    }
+    .main {
+        width: 200px;
+    }
+    .main-left {
+        width: 125px;
+    }
+    .y {
+        width: 125px;
+    }
+    .b {
+        width: 125px;
+    }
+    .main-right {
+        width: 75px;
+    }
+    .main-bottom {
+        width: 200px;
+    }
+    .footer {
+        width: 300px;
+    }
+}
+
+/* スマホ向けスタイル 479px以下の時に使用するCSSを記載 */
+@media screen and (max-width: 479px) {
+    boby {
+        width: 150px;
+        height: 850px;
+        float: none;
+    }
+    .header {
+        width: 150px;
+    }
+    .contents {
+        width: 150px;
+    }
+    .side {
+        width: 150px;
+    }
+    .main {
+        width: 150px;
+    }
+    .y {
+        width: 150px;
+    }
+    .b {
+        width: 150px;
+    }
+    .main-right  {
+        width: 150px;
+    }
+    .r {
+        width: 150px;
+    }
+    .main-bottom {
+        width: 150px;
+    }
+    .footer {
+        width: 150px;
+        position: absolute;
+        bottom: 0;
+    }
+}
