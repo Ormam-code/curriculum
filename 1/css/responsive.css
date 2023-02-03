@@ -1,0 +1,40 @@
+@media screen and (max-width: 479px) {
+    .header{
+        width: 200px;
+        height: 180px;
+        display: flex;
+        flex-flow: column;
+        position: relative;
+    }
+    ul{
+        width: 60px;
+        height: 160px;
+        display: flex;
+        flex-flow: column;
+        position: relative;
+        top: 10px;
+        left: 70px;
+    }
+    .aside{
+        width: 200px;
+        height: 100px;
+        float: none;
+    }
+    .main{
+        width: 200px;
+        height: 210px;
+        position: relative;
+        float: none;
+    }
+    .main-boxs{
+        position: relative;
+        top: 20px;
+        left: 30px;
+
+    }
+    .footer{
+        width: 200px;
+    }
+
+
+}
